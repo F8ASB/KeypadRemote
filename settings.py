@@ -3,7 +3,7 @@
 
 
 '''
-KeypadRemote F8ASB 2021 // information sur F8ASB.COM
+KeypadRemote F8ASB 2020 // information sur F8ASB.COM
 Possibilité de faire des QSY avec un clavier numerique USB
 Developpé pour les non-voyants
 
@@ -33,42 +33,42 @@ Il suffira de modifier le nom de la touche, voir exemple avec enter ci-dessous
 touches = {
     '0': {
         'salon': 'rrf',
-        'dtmfconfirm': '961',
+        'dtmfconfirm': '196',
      	'dtmf': '96',
         },
     '1': {
         'salon': 'tec',
-        'dtmfconfirm': '981',
+        'dtmfconfirm': '198',
         'dtmf': '98',
         },
     '2': {
         'salon': 'int',
-        'dtmfconfirm': '991',
+        'dtmfconfirm': '199',
         'dtmf': '99',
         },
     '3': {
         'salon': 'bav',
-        'dtmfconfirm': '1001',
+        'dtmfconfirm': '1100',
         'dtmf': '100',
         },
     '4': {
         'salon': 'loc',
-        'dtmfconfirm': '1011',
+        'dtmfconfirm': '1101',
         'dtmf': '101',
         },
     '5': {
         'salon': 'exp',
-        'dtmfconfirm': '1021',
+        'dtmfconfirm': '1102',
         'dtmf': '102',
         },
     '6': {
         'salon': 'fon',
-        'dtmfconfirm': '971',
+        'dtmfconfirm': '197',
         'dtmf': '97',
         },
     '7': {
         'salon': 'default',
-        'dtmfconfirm': '95',
+        'dtmfconfirm': '195',
         'dtmf': '95',
         },
     'enter': {

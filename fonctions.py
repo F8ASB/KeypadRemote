@@ -3,7 +3,7 @@
 
 
 '''
-KeypadRemote F8ASB 2021 // information sur F8ASB.COM
+KeypadRemote F8ASB 2020 // information sur F8ASB.COM
 Possibilité de faire des QSY avec un clavier numerique USB
 Developpé pour les non-voyants
 
@@ -39,7 +39,7 @@ def confirmtouch(salon):
         print("QSY Direct: "+salon)
         s.touch=0
         s.qsy="NO"
-        print("code envoyé: "+s.touches[s.key]['dtmf'])
+        print("code DTMF envoyé: "+s.touches[s.key]['dtmf'])
         dtmf(str(s.touches[s.key]['dtmf']))
 
 
@@ -48,6 +48,6 @@ def confirmtouch(salon):
 #**********************  
 
 def dtmf(code):
-    b = open(str(s.path_dtmf),"w")
-    b.write(code)
-    b.close()
+
+    cmd=('echo "'+str(code)+'#" > '+str(s.path_dtmf))
+    os.system(cmd)

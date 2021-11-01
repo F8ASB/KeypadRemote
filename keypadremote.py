@@ -3,7 +3,7 @@
 
 
 '''
-KeypadRemote F8ASB 2021 // information sur F8ASB.COM
+KeypadRemote F8ASB 2020 // information sur F8ASB.COM
 Possibilité de faire des QSY avec un clavier numerique USB
 Developpé pour les non-voyants
 
