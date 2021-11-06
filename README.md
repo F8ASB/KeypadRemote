@@ -34,13 +34,16 @@ Se connecter en SSH et aller dans le dossier Spotnik
 
 Copier les fichiers du projet
 
-`gitclone https://github.com/F8ASB/KeypadRemote.git`
+`git clone https://github.com/F8ASB/KeypadRemote.git`
 
 Dans le fichier /etc/spotnik/svxlink.cfg accéssible depuis le menu spot
 dans la partie simplexLogic aller dans les parametre `FX_GAIN_LOW=` et mettre la valeur `10`.
 Cela permettra de ne pas baisser la modulation voir de l'amplifier un peu si il y a un QSO dans le salon en cours afin de permettre de bien entendre les commandes vocales.
 
-Editer le fichier `/usr/share/svxlink/event.d/local/Logic.tcl` , insérer le code dtmfs.tcl en faisant un copier/coller.Dans ce fichier vous retrouverez tous les codes gérer par svxlink.
+Editer le fichier `/usr/share/svxlink/event.d/local/Logic.tcl` , insérer le code dtmfs.tcl en faisant un copier/coller.
+Dans ce fichier vous retrouverez tous les codes gérer par svxlink.
+
+Tous les prérequis sont présent, dependance, fichiers sons,modification du fichier Logic.tcl, script installé. 
 
 Vous pouvez tester le bon fonctionnement du script en utilisant la commande:
 `python3 /opt/spotnik/KeypadRemote/KeypadRemote.py`
@@ -50,5 +53,3 @@ Si tout est fonctionnel, vous pouvez maintenant le mettre au demarrage du hotspo
 Editer le fichier `/etc/rc.local` pour insérer la ligne de commande qui lancera le script au demarrage.
 
 `python3 /opt/spotnik/KeypadRemote/KeypadRemote.py &`
-
-### **DOCUMENTATION EN COURS D'ECRITURE**
