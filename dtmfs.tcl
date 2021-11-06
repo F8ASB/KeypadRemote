@@ -65,7 +65,7 @@ if {$cmd == "197"} {
      }
 
 #DONNER EN VOCAL LE SALLON EN COURS
-if {$cmd == "00"} {
+if {$cmd == "88"} {
 
   if { [file exists /etc/spotnik/network]  } {
         set sa [open "/etc/spotnik/network" "r"]
