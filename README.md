@@ -14,12 +14,16 @@ Installer la dependance Keyboard:
 Se connecter en SSH et aller dans le dossier Spotnik
 `cd /opt/spotnik/`
 
-copier les fichiers du projet
+Copier les fichiers du projet
 
 `gitclone https://github.com/F8ASB/KeypadRemote.git`
 
 Dans le fichier /etc/spotnik/svxlink.cfg accéssible depuis le menu spot
 dans la partie simplexLogic aller dans les parametre `FX_GAIN_LOW=` et mettre la valeur `10`.
 Cela permettra de ne pas baisser la modulation voir de l'amplifier un peu si il y a un QSO dans le salon en cours afin de permettre de bien entendre les commandes vocales.
+
+Editer le fichier `/usr/share/svxlink/event.d/local/Logic.tcl` , insérer le code dtmfs.tcl en faisant un copier/coller.Dans ce fichier vous retrouverez tous les codes gérer par svxlink.
+
+Editer le fichier `/etc/rc.local` pour insérer la ligne de commande qui lancera le script au demarrage.
 
 ### **DOCUMENTATION EN COURS D'ECRITURE**
