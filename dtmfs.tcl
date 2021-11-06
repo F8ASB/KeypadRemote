@@ -5,7 +5,7 @@
  if {$cmd == "195"} {
    puts "Confirmation salon PER"
    playFile /usr/share/svxlink/sounds/fr_FR/RRF/confirmQSY.wav
-   playFile /usr/share/svxlink/sounds/fr_FR/Core/parrot.wav
+   playFile /usr/share/svxlink/sounds/fr_FR/RRF/parrot.wav
    return 1
    }
 
