@@ -1,5 +1,7 @@
 # KeypadRemote
-Il s'agir d'un commande à distance pour Hotspot RRF avec un clavier numérique USB ou Bluetooth. Une description complète du projet est disponible sur [mon blog F8ASB.COM]( http://blog.f8asb.com/2021/11/06/keypadremote-le-…r-les-malvoyants/):
+Il s'agit d'un commande à distance pour Hotspot RRF avec un clavier numérique USB ou Bluetooth.
+
+Une description complète du projet est disponible sur [mon blog F8ASB.COM]( http://blog.f8asb.com/2021/11/06/keypadremote-le-…r-les-malvoyants/):
 
 ![](http://blog.f8asb.com/wp-content/uploads/2021/11/keypadremote01.png)
 
@@ -9,8 +11,22 @@ Reprendre l'ensemble des fichiers sons RRF sur le lien suivant:
 et les mettres selon le chemin suivant du hotspot:
 `/usr/share/svxlink/sounds/fr_FR/RRF`
 
+Pour ne pas s'embêter vous pour reprendre l'ensemble des fichiers vocaux disponibles.
+Se rendre dans le repertoirre concerné avec la commande:
+**`cd /usr/share/svxlink/sounds/`**
+
+copier les fichiers sons
+
+**`git clone https://github.com/F8ASB/fr_FR_Agnes.git`**
+Renommer le dossier d'origine
+**`mv fr_FR fr_FR_Old`**
+Renommer le dossier avec les nouveaux sons:
+**`mv fr_FR_Agnes fr_FR`**
+
+
+
 Installer la dependance Keyboard:
-`pip3 install keyboard`
+**`pip3 install keyboard`**
 
 Se connecter en SSH et aller dans le dossier Spotnik
 `cd /opt/spotnik/`
@@ -25,6 +41,13 @@ Cela permettra de ne pas baisser la modulation voir de l'amplifier un peu si il 
 
 Editer le fichier `/usr/share/svxlink/event.d/local/Logic.tcl` , insérer le code dtmfs.tcl en faisant un copier/coller.Dans ce fichier vous retrouverez tous les codes gérer par svxlink.
 
+Vous pouvez tester le bon fonctionnement du script en utilisant la commande:
+`python3 /opt/spotnik/KeypadRemote/KeypadRemote.py`
+
+Si tout est fonctionnel, vous pouvez maintenant le mettre au demarrage du hotspot.
+
 Editer le fichier `/etc/rc.local` pour insérer la ligne de commande qui lancera le script au demarrage.
+
+`python3 /opt/spotnik/KeypadRemote/KeypadRemote.py &`
 
 ### **DOCUMENTATION EN COURS D'ECRITURE**
