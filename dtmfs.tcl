@@ -49,7 +49,7 @@ if {$cmd == "1101"} {
      playFile /usr/share/svxlink/sounds/fr_FR/RRF/Sloc.wav
      return 1
      }
-if {$cmd == "1012"} {
+if {$cmd == "1102"} {
 
      puts "Confirmation salon EXP"
      playFile /usr/share/svxlink/sounds/fr_FR/RRF/confirmQSY.wav
