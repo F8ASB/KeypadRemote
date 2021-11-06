@@ -1,5 +1,6 @@
 # KeypadRemote
-Il s'agir d'un commande à distance pour Hotspot RRF avec un clavier numérique USB ou Bluetooth. Une description complète du projet est dispobible sur [mon blog F8ASB.COM]( http://blog.f8asb.com/2021/11/06/keypadremote-le-…r-les-malvoyants/):
+Il s'agir d'un commande à distance pour Hotspot RRF avec un clavier numérique USB ou Bluetooth. Une description complète du projet est disponible sur [mon blog F8ASB.COM]( http://blog.f8asb.com/2021/11/06/keypadremote-le-…r-les-malvoyants/):
+
 ![](http://blog.f8asb.com/wp-content/uploads/2021/11/keypadremote01.png)
 
 Reprendre l'ensemble des fichiers sons RRF sur le lien suivant:
