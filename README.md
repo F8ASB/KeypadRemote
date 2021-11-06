@@ -12,20 +12,21 @@ et les mettres selon le chemin suivant du hotspot:
 `/usr/share/svxlink/sounds/fr_FR/RRF`
 
 Pour ne pas s'embêter vous pour reprendre l'ensemble des fichiers vocaux disponibles.
+
 Se rendre dans le repertoirre concerné avec la commande:
 **`cd /usr/share/svxlink/sounds/`**
 
 copier les fichiers sons
 
 **`git clone https://github.com/F8ASB/fr_FR_Agnes.git`**
+
 Renommer le dossier d'origine
 **`mv fr_FR fr_FR_Old`**
+
 Renommer le dossier avec les nouveaux sons:
 **`mv fr_FR_Agnes fr_FR`**
 
-
-
-Installer la dependance Keyboard:
+Installer la dependance Keyboard necessaire pour le clavier USB:
 **`pip3 install keyboard`**
 
 Se connecter en SSH et aller dans le dossier Spotnik
