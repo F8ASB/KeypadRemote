@@ -45,7 +45,10 @@ Dans ce fichier vous retrouverez tous les codes gérer par svxlink.
 
 Tous les prérequis sont présent, dependance, fichiers sons,modification du fichier Logic.tcl, script installé. 
 
+Il sera necessaire d'editer le fichier settings.py afin de parametre les fonctions selon les touches du clavier. Un utilitaire qui s'appelle Keytest.py permet de voir comment les touche sont reconnu par linux. Il suffira de mettre la bonne touche par rapport au QSY souhaité.
+
 Vous pouvez tester le bon fonctionnement du script en utilisant la commande:
+
 `python3 /opt/spotnik/KeypadRemote/KeypadRemote.py`
 
 Si tout est fonctionnel, vous pouvez maintenant le mettre au demarrage du hotspot.
