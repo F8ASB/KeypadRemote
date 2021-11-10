@@ -3,7 +3,7 @@ Il s'agit d'un commande à distance pour Hotspot RRF avec un clavier numérique 
 
 Une description complète du projet est disponible sur [mon blog F8ASB.COM]( http://blog.f8asb.com/2021/11/06/keypadremote-le-…r-les-malvoyants/):
 
-![](http://blog.f8asb.com/wp-content/uploads/2021/11/keypadremote01.png)
+![](http://blog.f8asb.com/wp-content/uploads/2021/11/keypadremote01-1.jpg)
 
 Reprendre l'ensemble des fichiers sons RRF sur le lien suivant:
 [https://github.com/F8ASB/fr_FR_Agnes/tree/fr_FR_Agnes/RRF](https://github.com/F8ASB/fr_FR_Agnes/tree/fr_FR_Agnes/RRF)
@@ -45,7 +45,9 @@ Dans ce fichier vous retrouverez tous les codes gérer par svxlink.
 
 Tous les prérequis sont présent, dependance, fichiers sons,modification du fichier Logic.tcl, script installé. 
 
-Il sera necessaire d'editer le fichier settings.py afin de parametre les fonctions selon les touches du clavier. Un utilitaire qui s'appelle Keytest.py permet de voir comment les touche sont reconnu par linux. Il suffira de mettre la bonne touche par rapport au QSY souhaité.
+Il sera necessaire d'editer le fichier settings.py afin de parametre les fonctions selon les touches du clavier. Un utilitaire qui s'appelle testKey.py permet de voir comment les touches sont reconnues par linux. Il suffira de mettre la bonne touche par rapport au QSY souhaité.
+
+![](http://blog.f8asb.com/wp-content/uploads/2021/11/testKey.png)
 
 Vous pouvez tester le bon fonctionnement du script en utilisant la commande:
 
