@@ -53,10 +53,10 @@ Il suffira de mettre la bonne touche par rapport au QSY souhaité.
 
 Vous pouvez tester le bon fonctionnement du script en utilisant la commande:
 
-`python3 /opt/spotnik/KeypadRemote/KeypadRemote.py`
+`python3 /opt/spotnik/KeypadRemote/keypadremote.py`
 
 Si tout est fonctionnel, vous pouvez maintenant le mettre au demarrage du hotspot.
 
 Editer le fichier `/etc/rc.local` pour insérer la ligne de commande qui lancera le script au demarrage.
 
-`python3 /opt/spotnik/KeypadRemote/KeypadRemote.py &`
+`python3 /opt/spotnik/KeypadRemote/keypadremote.py &`
