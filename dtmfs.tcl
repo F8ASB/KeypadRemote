@@ -60,7 +60,7 @@ if {$cmd == "197"} {
 
      puts "Confirmation salon FON"
      playFile /usr/share/svxlink/sounds/fr_FR/RRF/confirmQSY.wav
-     playFile /usr/share/svxlink/sounds/fr_FR/RRF/Stec.wav
+     playFile /usr/share/svxlink/sounds/fr_FR/RRF/Sfon.wav
      return 1
      }
 
