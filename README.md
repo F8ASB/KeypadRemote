@@ -37,7 +37,7 @@ Copier les fichiers du projet
 `git clone https://github.com/F8ASB/KeypadRemote.git`
 
 Dans le fichier /etc/spotnik/svxlink.cfg accéssible depuis le menu spot
-dans la partie simplexLogic aller dans les parametre `FX_GAIN_LOW=` et mettre la valeur `10`.
+dans la partie simplexLogic aller dans les paramétrer `FX_GAIN_LOW=` et mettre la valeur `10`.
 Cela permettra de ne pas baisser la modulation voir de l'amplifier un peu si il y a un QSO dans le salon en cours afin de permettre de bien entendre les commandes vocales.
 
 Editer le fichier `/usr/share/svxlink/events.d/local/Logic.tcl` , insérer le code dtmfs.tcl en faisant un copier/coller.
