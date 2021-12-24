@@ -56,6 +56,29 @@ if {$cmd == "1102"} {
      playFile /usr/share/svxlink/sounds/fr_FR/RRF/Sexp.wav
      return 1
      }
+if {$cmd == "1103"} {
+
+     puts "Confirmation salon REG"
+     playFile /usr/share/svxlink/sounds/fr_FR/RRF/confirmQSY.wav
+     playFile /usr/share/svxlink/sounds/fr_FR/RRF/Sreg.wav
+     return 1
+     }
+if {$cmd == "1104"} {
+
+     puts "Confirmation annonce METEO"
+     playFile /usr/share/svxlink/sounds/fr_FR/RRF/confirm.wav
+     playFile /usr/share/svxlink/sounds/fr_FR/RRF/meteo.wav
+     return 1
+     }
+
+if {$cmd == "1105"} {
+
+     puts "Confirmation annonce IP"
+     playFile /usr/share/svxlink/sounds/fr_FR/RRF/confirm.wav
+     playFile /usr/share/svxlink/sounds/fr_FR/RRF/adresse.wav
+     return 1
+     }
+
 if {$cmd == "197"} {
 
      puts "Confirmation salon FON"
